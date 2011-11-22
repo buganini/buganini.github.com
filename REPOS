@@ -1,0 +1,35 @@
+digraph "github.com/buganini" {	
+	bsdconv [label="2009/04 bsdconv"];
+	bsdconvmv [label="2010/12 bsdconvmv"];
+	bsdtagconv [label="2011/04 bsdtagconv"];
+	bug5 -> termim [label="inspire"];
+	bug5 [label="2011/04 bug5"];
+	chicomp [label="2011/11 chicomp"];
+	chvar -> bsdconv;
+	chvar [label="2009/12 chvar"];
+	gbsdconv [label="2011/12 gbsdconv"];
+	irssi_bsdconv [label="2010/05 bsdconv script for irssi"];
+	perl_bsdconv -> irssi_bsdconv;
+	perl_bsdconv [label="2009/05 perl-bsdconv"];
+	php_bsdconv -> chicomp;
+	php_bsdconv -> chvar;
+	php_bsdconv [label="2009/05 php-bsdconv"];
+	python_bsdconv -> bsdconvmv;
+	python_bsdconv -> gbsdconv;
+	python_bsdconv [label="2009/10 python-bsdconv"];
+	ruby_bsdconv [label="2011/10 ruby-bsdconv"];
+	termim [label="2011/05 termim"];
+
+	bsdconv -> bsdtagconv;
+	bsdconv -> bug5;
+	bsdconv -> perl_bsdconv;
+	bsdconv -> php_bsdconv;
+	bsdconv -> python_bsdconv;
+	bsdconv -> ruby_bsdconv;
+
+
+	brackets [label="2010/09 brackets"];
+	rcexecr [label="2011/05 rcexecr"];
+
+	brackets -> rcexecr [label="inspire"];
+}

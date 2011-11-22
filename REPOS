@@ -24,7 +24,7 @@ digraph "github.com/buganini" {
 
 	amidala -> bsdconv [label="inspire"];
 	amidala -> pttt [label="inspire"];
-	brackets -> rcexecr [label="inspire", len=2];
+	brackets -> rcexecr [label="inspire"];
 	bsdconv -> bsdtagconv;
 	bsdconv -> bug5;
 	bsdconv -> perl_bsdconv;

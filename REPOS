@@ -1,4 +1,5 @@
 digraph "github.com/buganini" {
+	sep=0.1;
 	overlap=false;
 	splines=true;
 

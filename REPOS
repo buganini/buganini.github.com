@@ -1,4 +1,8 @@
-digraph "github.com/buganini" {	
+digraph "github.com/buganini" {
+	sep=0.5;
+	overlap=false;
+	splines=true;
+
 	bsdconv [label="2009/04 bsdconv"];
 	bsdconvmv [label="2010/12 bsdconvmv"];
 	bsdtagconv [label="2011/04 bsdtagconv"];

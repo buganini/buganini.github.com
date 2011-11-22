@@ -3,6 +3,8 @@ digraph "github.com/buganini" {
 	overlap=false;
 	splines=true;
 
+	amidala [label="~2004 amidala"];
+	brackets [label="2010/09/27 brackets"];
 	bsdconv [label="2009/04/09 bsdconv"];
 	bsdconvmv [label="2010/12/05 bsdconvmv"];
 	bsdtagconv [label="2011/04/28 bsdtagconv"];
@@ -11,12 +13,16 @@ digraph "github.com/buganini" {
 	chvar [label="2009/12/21 chvar"];
 	gbsdconv [label="2011/10/29 gbsdconv"];
 	irssi_bsdconv [label="2010/06/06 bsdconv script for irssi"];
+	mathmlboard [label="~2004 mathmlboard"];
 	perl_bsdconv [label="2009/05/19 perl-bsdconv"];
 	php_bsdconv [label="2009/05/23 php-bsdconv"];
 	python_bsdconv [label="2009/10/10 python-bsdconv"];
+	rcexecr [label="2011/05/29 rcexecr"];
 	ruby_bsdconv [label="2011/10/13 ruby-bsdconv"];
 	termim [label="2011/05/19 termim"];
 
+	amidala -> bsdconv [label="inspire"];
+	brackets -> rcexecr [label="inspire"];
 	bsdconv -> bsdtagconv;
 	bsdconv -> bug5;
 	bsdconv -> perl_bsdconv;
@@ -25,6 +31,7 @@ digraph "github.com/buganini" {
 	bsdconv -> ruby_bsdconv;
 	bug5 -> termim [label="inspire"];
 	chvar -> bsdconv;
+	mathmlboard -> amidala [label="inspire"];
 	perl_bsdconv -> irssi_bsdconv;
 	php_bsdconv -> chicomp;
 	php_bsdconv -> chvar;
@@ -32,9 +39,4 @@ digraph "github.com/buganini" {
 	python_bsdconv -> gbsdconv;
 	bsdconvmv -> gbsdconv;
 	bsdtagconv -> gbsdconv;
-
-	brackets [label="2010/09/27 brackets"];
-	rcexecr [label="2011/05/29 rcexecr"];
-
-	brackets -> rcexecr [label="inspire"];
 }

@@ -12,7 +12,7 @@ digraph "github.com/buganini" {
 	chicomp [label="2011/11/11 chicomp"];
 	chvar [label="2009/12/21 chvar"];
 	gbsdconv [label="2011/10/29 gbsdconv"];
-	irssi_bsdconv [label="2010/06/06 bsdconv script for irssi"];
+	irssi_bsdconv [label="2010/06/06 irssi-bsdconv"];
 	mathmlboard [label="~2004 mathmlboard"];
 	perl_bsdconv [label="2009/05/19 perl-bsdconv"];
 	php_bsdconv [label="2009/05/23 php-bsdconv"];

@@ -17,6 +17,7 @@ digraph "github.com/buganini" {
 	mysql_udf_bsdconv [label="2011/11/30 mysql-udf-bsdconv"]
 	perl_bsdconv [label="2009/05/19 perl-bsdconv"];
 	php_bsdconv [label="2009/05/23 php-bsdconv"];
+	postgres_bsdconv [label="2011/11/30 postgres-bsdconv"];
 	pttt [label="~2007/12 pttt"];
 	python_bsdconv [label="2009/10/10 python-bsdconv"];
 	rcexecr [label="2011/05/29 rcexecr"];
@@ -31,6 +32,7 @@ digraph "github.com/buganini" {
 	bsdconv -> mysql_udf_bsdconv;
 	bsdconv -> perl_bsdconv;
 	bsdconv -> php_bsdconv;
+	bsdconv -> postgres_bsdconv;
 	bsdconv -> python_bsdconv;
 	bsdconv -> ruby_bsdconv;
 	bug5 -> termim [label="inspire"];

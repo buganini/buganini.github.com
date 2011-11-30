@@ -14,6 +14,7 @@ digraph "github.com/buganini" {
 	gbsdconv [label="2011/10/29 gbsdconv"];
 	irssi_bsdconv [label="2010/06/06 irssi-bsdconv"];
 	mathmlboard [label="~2004 mathmlboard"];
+	mysql_udf_bsdconv [label="2011/11/30 mysql-udf-bsdconv"]
 	perl_bsdconv [label="2009/05/19 perl-bsdconv"];
 	php_bsdconv [label="2009/05/23 php-bsdconv"];
 	pttt [label="~2007/12 pttt"];
@@ -27,6 +28,7 @@ digraph "github.com/buganini" {
 	brackets -> rcexecr [label="inspire"];
 	bsdconv -> bsdtagconv;
 	bsdconv -> bug5;
+	bsdconv -> mysql_udf_bsdconv;
 	bsdconv -> perl_bsdconv;
 	bsdconv -> php_bsdconv;
 	bsdconv -> python_bsdconv;

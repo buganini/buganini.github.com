@@ -6,11 +6,13 @@ digraph "github.com/buganini" {
 	amidala [label="~2004\namidala"];
 	brackets [label="2010/09/27\nbrackets"];
 	bsdconv [label="2009/04/09\nbsdconv"];
+	bsdconv_opencc [label="2012/09/05\nbsdconv-opencc"];
 	bsdconvmv [label="2010/12/05\nbsdconvmv"];
 	bsdtagconv [label="2011/04/28\nbsdtagconv"];
 	ctie [label="2012/01/18\nctie"];
 	bug5 [label="2011/04/23\nbug5"];
 	chicomp [label="2011/11/11\nchicomp"];
+	chiconv [label="2012/09/03\nchiconv"];
 	chvar [label="2009/12/21\nchvar"];
 	gbsdconv [label="2011/10/29\ngbsdconv"];
 	irssi_bsdconv [label="2010/06/06\nirssi-bsdconv"];
@@ -28,8 +30,10 @@ digraph "github.com/buganini" {
 	amidala -> bsdconv [label="inspire"];
 	amidala -> pttt [label="inspire"];
 	brackets -> rcexecr [label="inspire"];
+	bsdconv -> bsdconv_opencc;
 	bsdconv -> bsdtagconv;
 	bsdconv -> bug5;
+	bsdconv -> chiconv;
 	bsdconv -> mysql_udf_bsdconv;
 	bsdconv -> perl_bsdconv;
 	bsdconv -> php_bsdconv;

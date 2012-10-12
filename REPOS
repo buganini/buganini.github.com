@@ -18,7 +18,7 @@ digraph "github.com/buganini" {
 	irssi_bsdconv [label="2010/06/06\nirssi-bsdconv"];
 	mathmlboard [label="~2004\nmathmlboard"];
 	mysql_udf_bsdconv [label="2011/11/30\nmysql-udf-bsdconv"]
-	perl_bsdconv [label="2009/05/19\nnperl-bsdconv"];
+	perl_bsdconv [label="2009/05/19\nperl-bsdconv"];
 	php_bsdconv [label="2009/05/23\nphp-bsdconv"];
 	postgres_bsdconv [label="2011/11/30\npostgres-bsdconv"];
 	pttt [label="~2007/12\npttt"];

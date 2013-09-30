@@ -26,6 +26,7 @@ digraph "github.com/buganini" {
 	rcexecr [label="2011/05/29\nrcexecr"];
 	ruby_bsdconv [label="2011/10/13\nruby-bsdconv"];
 	termim [label="2011/05/19\ntermim"];
+	go_bsdconv [label="2013/09/29\ngo-bsdconv"];
 
 	amidala -> bsdconv [label="inspire"];
 	amidala -> pttt [label="inspire"];
@@ -34,6 +35,7 @@ digraph "github.com/buganini" {
 	bsdconv -> bsdtagconv;
 	bsdconv -> bug5;
 	bsdconv -> chiconv;
+	bsdconv -> go_bsdconv;
 	bsdconv -> mysql_udf_bsdconv;
 	bsdconv -> perl_bsdconv;
 	bsdconv -> php_bsdconv;
